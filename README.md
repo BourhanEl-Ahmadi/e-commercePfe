@@ -37,5 +37,5 @@
 
 1. **Clonage & Dépendances PHP**
    ```bash
-   git clone [https://github.com/votre-compte/vestimarket.git](https://github.com/votre-compte/vestimarket.git)
+   git clone [https://github.com/BourhanEl-Ahmadi/e-commercePfe.git)
    composer install
