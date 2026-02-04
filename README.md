@@ -39,3 +39,27 @@
    ```bash
    git clone [https://github.com/BourhanEl-Ahmadi/e-commercePfe.git)
    composer install
+
+
+## Dépendances Front-end
+   npm install
+
+
+   cp .env.example .env # Configurez votre DB et vos clés Stripe
+   php artisan key:generate
+   php artisan migrate --seed
+
+
+   php artisan serve
+   npm run dev
+
+
+📂 Structure des Composants (Front-end)
+
+ProductCard.jsx : Affichage dynamique des articles.
+
+FilterBar.jsx : Gestion des états de filtrage.
+
+CartContext.jsx : Gestion du panier en temps réel.
+
+AdminLayout.jsx : Structure dédiée à la gestion administrative.
